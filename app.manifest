@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0.0",
+  "info": {
+    "title": "TA-osquery",
+    "id": {
+      "group": null,
+      "name": "TA-osquery",
+      "version": "1.0.0"
+    },
+    "author": [
+      {
+        "name": "Jose Hernandez",
+        "email": jhernandez@splunk.com,
+        "company": Splunk Inc.
+      }
+    ],
+    "releaseDate": null,
+    "description": "Ingests osquery dat, parses, makes it CIM compliant and populates the Alert, Changes and Endpoint datamodels among other things",
+    "classification": {
+      "intendedAudience": null,
+      "categories": [],
+      "developmentStatus": null
+    },
+    "commonInformationModels": null,
+    "license": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "privacyPolicy": {
+      "name": null,
+      "text": null,
+      "uri": null
+    },
+    "releaseNotes": {
+      "name": null,
+      "text": null,
+      "uri": null
+    }
+  },
+  "dependencies": {
+  },
+  "tasks": [],
+  "inputGroups": {
+  },
+  "incompatibleApps": {
+  },
+  "platformRequirements": {
+    "splunk": {
+      "Enterprise": "*"
+    }
+  }
+}
