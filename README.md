@@ -5,10 +5,10 @@ An Splunk technology add-on for osquery
 * Parses and extracts fields for the following logs: 
 	* `osqueryd.INFO, osqueryd.WARNING, osqueryd.ERROR`
 	* `osqueryd.results.log`
-	* `osqueryd.snapshots.,log`
+	* `osqueryd.snapshots.log`
 * Provides Datamodel Mapping for:
 	* **Alerts** Data Model base on alerts from packs
-	* **Changess** Data Model base on FIM events from packs
+	* **Changes** Data Model base on FIM events from packs
 	* **Endpoint** Data Model base on Splunks Query Pack (todo)
 * Does _correct_ time extraction 
 
