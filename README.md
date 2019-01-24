@@ -13,7 +13,7 @@ An Splunk technology add-on for osquery
 * Does _correct_ time extraction 
 
 # Deploying
-1. Remember to drop the TA in your indexers as well as your forwarded
+1. Remember to drop the TA in your indexers as well as your forwarders
 2. Do not forget to remove the example `default/inputs.conf`
 3. Add the Splunk query pack to your osquery agent (todo)
 
